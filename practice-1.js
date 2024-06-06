@@ -15,7 +15,10 @@ class Bird extends Animal {
     this.name = name;
   };
 
-  fly(){
+  static fly(){
     console.log('I can fly!');
   }
 };
+
+let pJ = new Bird('비행','하늘','피죤');
+console.log(pJ);
