@@ -1,0 +1,1 @@
+console.log('super를 연습해보자.')
