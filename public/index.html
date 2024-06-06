@@ -7,5 +7,19 @@
 </head>
 <body>
   <div class="btn">0</div>
+  <script>
+    class App {
+      constructor() {
+        this.$button = document.getElementsByClassName('btn');
+        this.count = 0;
+        this.$button.onclick = this.increase;
+      }
+      
+      increase = () => {
+        this.$button.textContent = ++this.count;
+      }
+    }
+    new App();
+  </script>
 </body>
 </html>
