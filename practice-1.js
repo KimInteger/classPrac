@@ -21,4 +21,5 @@ class Bird extends Animal {
 };
 
 let pJ = new Bird('비행','하늘','피죤');
-console.log(pJ);
+// console.log(pJ);
+console.dir(pJ.move);
