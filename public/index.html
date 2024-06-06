@@ -6,11 +6,11 @@
   <title>class연습</title>
 </head>
 <body>
-  <div class="btn">0</div>
+  <button class="btn">0</button>
   <script>
     class App {
       constructor() {
-        this.$button = document.getElementsByClassName('btn');
+        this.$button = document.getElementsByClassName('btn')[0];
         this.count = 0;
         this.$button.onclick = this.increase;
       }
