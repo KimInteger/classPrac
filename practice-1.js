@@ -5,7 +5,7 @@ class Animal {
   };
 
   move(){
-    console.log('I can move!');
+    console.log(1);
   }
 };
 
@@ -15,11 +15,12 @@ class Bird extends Animal {
     this.name = name;
   };
 
-  static fly(){
+  fly(){
     console.log('I can fly!');
   }
 };
 
 let pJ = new Bird('비행','하늘','피죤');
 // console.log(pJ);
-console.dir(pJ.move);
+
+pJ.fly();
